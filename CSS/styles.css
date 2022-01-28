@@ -1,0 +1,39 @@
+form{
+
+    border: 1px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px;
+    background-color:lightblue;
+
+}
+.formdiv{
+    margin-top: 100px;
+
+}
+
+.inputstyle{
+    width: 50%;
+    padding: 18px 18px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.otherinputs{
+    margin: 10px;
+}
+
+#buttonthe {
+    background-color: lightblue;
+    color: hotpink;
+    padding: 10px 10px;
+    width: 50%;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color:blueviolet;
+}

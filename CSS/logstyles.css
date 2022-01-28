@@ -1,0 +1,58 @@
+body{
+    background-color:#5b13b9;
+    font-family: 'Josefin Sans', sans-serif;
+}
+form {
+    width: 300px;
+    margin-left: 20px
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 1px;
+    border: none;
+    border:1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+.signup-box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-right: 3px;
+}
+input[type=text], input[type=password] {
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    border-right: 3px;;
+}
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    display: inline-block;
+    width: auto;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #5b13b9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+span.psw {
+    float: left;
+    padding-top: 10px;
+}

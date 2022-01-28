@@ -1,0 +1,79 @@
+.arlinks{
+
+    list-style-type: none;
+    background-color: forestgreen;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+
+nav li a:hover{
+    background-color: royalblue;
+}
+
+.styleimages{
+
+    background-image: url(Brave/images/Animal.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+    }
+
+    .artexts{
+
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+.arbutton{
+    padding: 12px 12px;
+    width: 60%;
+    border-radius: 12px;
+    background-color: plum;
+    color: white;
+
+}
+nav,section{
+    margin: 5px;
+    padding: 5px;
+
+
+}
+.center{
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+}
+.flex-contain{
+    display: flex;
+}
+.flex-contain> div{
+    margin: 3px;
+    padding: 3px;
+
+}
+
+#gallery img{
+    border-radius: 50%;
+}
