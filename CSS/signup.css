@@ -1,0 +1,47 @@
+body{
+    background-color:#5b13b9;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.signup-box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-right: 3px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+   font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border:1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+button {
+    background-color: #5b13b9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: left;
+    padding-top: 16px;

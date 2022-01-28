@@ -1,0 +1,19 @@
+.navstyles {
+    text-decoration: none;
+    padding: 4px 4px;
+}
+. grey{
+    color: grey;
+}
+.col {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+}
+
+footer{
+    margin-top: 140px;
+}
